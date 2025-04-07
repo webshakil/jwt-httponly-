@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2022",              /* Modern JS target for Node.js 23 */
+    "module": "nodenext",            /* Optimized for Node.js ESM and CommonJS interop */
+    "moduleResolution": "nodenext",  /* Matches Node.js 23 resolution */
+    "strict": true,                  /* Enforce strict type checking */
+    "esModuleInterop": true,         /* Optional: keep if interoping with CommonJS libs */
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,            /* Optional: keep if performance is a concern */
+    "outDir": "dist"                 /* Output compiled JS to dist/ */
+  },
+  "include": [
+    "src/**/*.ts"                  /* Include all .ts files in src/ */
+  ]
+}
