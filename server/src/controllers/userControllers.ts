@@ -40,7 +40,7 @@ export const loginUser = asyncHandler(async (req: Request, res: Response) => {
   }
 
   generateToken(res, user._id);
-  res.json({ message: "Logged in successfully", user,generateToken });
+  res.json({ message: "Logged in successfully", user, generateToken });
 });
 
 // @desc Logout User
